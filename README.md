@@ -17,7 +17,7 @@ To get started with this project, follow the instructions below.
 ### Prerequisites
 
 Ensure you have the following installed:
-- Python 3.7+
+- Python 3.9+
 - pip (Python package installer)
 
 ### Installation
