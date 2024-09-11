@@ -97,3 +97,6 @@ The project relies on several libraries and frameworks. You can find them listed
 - `uvicorn`
 - `asgi_ref`
 
+---
+
+Thank you for checking out the Conversational Document Retrieval System. We hope you find it useful!
