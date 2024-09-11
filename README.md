@@ -47,7 +47,27 @@ Ensure you have the following installed:
 
 2. **Navigate to the Application**
 
-   Open your web browser and go to `http://localhost:5010`. 
+   Open your web browser and go to `http://localhost:5010`.
+
+## Explanation of Models and Libraries Used
+
+- **Flask**: A lightweight WSGI web application framework used to create the web application and handle routes and requests.
+  
+- **langchain_community**: This library helps in loading documents and performing conversational retrieval using pre-trained language models and vector databases like FAISS.
+  
+- **HuggingFaceEmbeddings**: This Hugging Face-based model is used to generate embeddings (vector representations) from the document text, enabling semantic search through vector similarity.
+
+- **FAISS (Facebook AI Similarity Search)**: A library for efficient similarity search and clustering of dense vectors. It helps in creating a searchable database of document chunks by storing them as vector embeddings and retrieving relevant documents through similarity search.
+
+- **Ollama LLaMA Model**: Ollama's LLaMA model is a pre-trained language model designed for conversational tasks, used here for question-answering based on the context of the document.
+  
+- **nltk**: The Natural Language Toolkit (NLTK) is used for text preprocessing, including tokenization, removing stopwords, and other essential natural language processing tasks.
+
+- **WhisperModel**: The Whisper model, created by OpenAI, is used for audio transcription. It converts audio files into text, enabling voice input functionality in the system.
+
+- **Google Translate**: This is used to detect and translate the language of the user queries. It supports multilingual interaction and provides translated responses.
+
+- **Uvicorn**: Uvicorn is an ASGI web server implementation for Python that powers this application to run asynchronously.
 
 ### API Endpoints
 
