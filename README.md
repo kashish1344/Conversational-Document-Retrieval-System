@@ -25,7 +25,7 @@ Ensure you have the following installed:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/yourusername/conversational-document-retrieval.git
+   git clone https://github.com/kashish1344/Conversational-Document-Retrieval-System.git
    cd conversational-document-retrieval
    ```
 
@@ -77,18 +77,3 @@ The project relies on several libraries and frameworks. You can find them listed
 - `uvicorn`
 - `asgi_ref`
 
-### Contributing
-
-We welcome contributions to this project. Please fork the repository and submit a pull request with your improvements.
-
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-### Contact
-
-For questions or support, please open an issue on GitHub or contact [your-email@example.com](mailto:your-email@example.com).
-
----
-
-Thank you for checking out the Conversational Document Retrieval System. We hope you find it useful!
